@@ -1,0 +1,27 @@
+p{
+    color: coral;
+    text-shadow: 2px 0px 10px black;
+    margin: 15px;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #6c69ce;
+}
+
+li:nth-child(2n){
+    font-style: italic;
+    font-weight: bolder;
+}
+
+li:nth-child(1n){
+    font-weight: bold;
+}
+
+.cadre{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+}
